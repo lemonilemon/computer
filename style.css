@@ -1,0 +1,30 @@
+head{
+    font-family: 微軟正黑體 新細明體;
+}
+div{
+    border: solid black 3px;
+    margin: 5px;
+    height: 20px;
+    width: 200px;
+    padding: 2px;
+    text-align: center;
+}
+p{
+    margin: 5px;
+    padding: 2px;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+img {
+	width: 20px;
+	height: 20px;
+    margin: 5px;
+    padding: 2px;
+}
