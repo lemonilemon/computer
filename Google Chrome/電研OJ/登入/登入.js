@@ -1,5 +1,5 @@
 function check(text) {
-	let password = "62567878";
+	let password = "63567272";
 	if(text == password) {
 		return true;
 	}
