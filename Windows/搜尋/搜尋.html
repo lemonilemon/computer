@@ -9,9 +9,10 @@
 </head>
 <body>
 	<div>現在位置：桌面</div><br>
-    <label for = "search">在這裡輸入文字來搜尋：</label>
-    <input type = "text" id = "search"><br>
-    <p></p>
+    <label for = "search" style = "margin: 5px">在這裡輸入文字來搜尋：</label>
+    <input type = "text" id = "search" onchange = "getElementById('bar').innerHTML = '搜尋結果 : '+this.value; if(this.value == '神秘的檔案') getElementById('achieve').innerHTML = '獲得成就「偷吃步」，雖然成就沒什麼用。';"><br>
+    <p id = "bar">搜尋結果：</p>
+    <p id = "achieve"></p>
     <br><a href = "../Windows.html"><div>上一頁</div></a>
 </body>
 </html>
