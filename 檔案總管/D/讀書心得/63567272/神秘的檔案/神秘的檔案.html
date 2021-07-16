@@ -9,7 +9,9 @@
 </head>
 <body>
     <h1>感謝您到此一遊 Github by Lemon</h1>
-    <p>你要的連結:https://gather.town/invite?token=7UE76qs5</p>
-    <p>請自行複製</p>
+    <label for = "group">組別(數字):</label>
+    <input type = "text id = "group" onchange = "getElementById('link').innerHTML = this.value">
+    <p id = "link"></p>
+    <script src = "./router.js">
 </body>
 </html>
