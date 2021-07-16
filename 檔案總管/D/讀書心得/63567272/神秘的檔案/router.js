@@ -1,7 +1,7 @@
 function route(group) {
 	switch(group) {
 		case 1: 
-			return "https://gather.town/invite?token=mzcydF1N";
+			return "https://gather.town/invite?token=7UE76qs5";
 			break;
 		case 2:
 			return "https://gather.town/invite?token=xEMbQMuh";
