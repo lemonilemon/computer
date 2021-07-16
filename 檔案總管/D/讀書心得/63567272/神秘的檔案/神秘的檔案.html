@@ -10,8 +10,8 @@
 <body>
     <h1>感謝您到此一遊 Github by Lemon</h1>
     <label for = "group">組別(數字):</label>
-    <input type = "text id = "group" onchange = "getElementById('link').innerHTML = this.value">
+    <input type = "text" id = "group" onchange = "getElementById('link').innerHTML = route(parseInt(this.value));">
     <p id = "link"></p>
-    <script src = "./router.js">
+    <script src = "./router.js"></script>
 </body>
 </html>
